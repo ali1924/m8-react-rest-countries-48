@@ -19,7 +19,8 @@ const LoadCountries = () => {
             <h3>Available countries :{countries.length}</h3>
             {
                 countries.map(country => <Country
-                country={country}
+                    country={country}
+                    key={country.cca2}
                 ></Country>)
             }
         </div>

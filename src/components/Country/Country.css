@@ -1,0 +1,9 @@
+.country{
+    border: 2px solid rgb(175, 151, 118);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(171, 87, 87);
+    /* width: 50%; */
+    /* text-align: center; */
+}
