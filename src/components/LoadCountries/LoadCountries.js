@@ -12,17 +12,19 @@ const LoadCountries = () => {
             .then(data => setCountries(data));
     }, [])
 
-    console.log(countries);
+    // console.log(countries);
     return (
-        <div>
+        <div className='countries-container'>
             <h1>Visiting every country in the world...!!</h1>
             <h3>Available countries :{countries.length}</h3>
-            {
-                countries.map(country => <Country
-                    country={country}
-                    key={country.cca2}
-                ></Country>)
-            }
+            <div className="countries-info">
+                {
+                    countries.map(country => <Country
+                        country={country}
+                        key={country.cca2}
+                    ></Country>)
+                }
+            </div>
         </div>
     )
 };

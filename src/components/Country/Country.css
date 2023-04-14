@@ -1,9 +1,22 @@
-.country{
+.country {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid rgb(175, 151, 118);
-    margin: 20px;
-    padding: 10px;
+    /* margin: 20px; */
+    background-color: bisque;
     border-radius: 20px;
-    background-color: bisque
     /* width: 50%; */
     /* text-align: center; */
+}
+
+.country-info {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.country img {
+    height: 160px;
+    width: 240px;
+    padding-right:20px ;
 }
