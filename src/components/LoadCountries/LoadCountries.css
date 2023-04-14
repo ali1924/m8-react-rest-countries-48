@@ -1,12 +1,11 @@
-.countries-container{
-    display: grid;
-}
-.countries-container h1,h3{
+.countries-container h1,
+h3 {
     text-align: center;
 }
-.countries-info{
+
+.countries-info {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 
 }
